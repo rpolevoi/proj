@@ -28,11 +28,11 @@ module.exports = function (config) {
       environment: 'dev'
     },
     reporters: ['progress', 'karma-remap-istanbul'],
-    port: 9876,
+    port: 8080,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome'],
+
     singleRun: false
   });
 };
